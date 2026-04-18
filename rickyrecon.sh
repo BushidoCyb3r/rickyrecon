@@ -1350,7 +1350,7 @@ main_menu() {
         echo
         echo -e "  ${BLUE}── QUICK ACTIONS ──${NC}"
         echo -e "  ${YELLOW}9)${NC}  Run ALL Tools (Full Recon)"
-        echo -e "  ${YELLOW}10)${NC} Quick Scan (RustScan + WhatWeb + Gobuster)"
+        echo -e "  ${YELLOW}10)${NC} Quick Scan (RustScan + Nuclei + dirsearch)"
         echo -e "  ${YELLOW}11)${NC} RustScan          - Fast port scanner"
         echo -e "  ${YELLOW}12)${NC} Nuclei            - Vulnerability scanner"
         echo
@@ -1380,8 +1380,8 @@ main_menu() {
             10)
                 echo -e "${YELLOW}[*] Running Quick Scan...${NC}"
                 run_rustscan
-                run_whatweb
-                run_gobuster
+                run_nuclei
+                run_dirsearch
                 echo -e "${GREEN}[+] Quick scan tools launched!${NC}"
                 echo
                 read -rp "Press Enter to continue..."
