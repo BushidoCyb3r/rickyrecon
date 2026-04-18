@@ -1,6 +1,6 @@
 # RickyRecon
 
-> RickyRecon is an interactive, menu-driven reconnaissance and enumeration framework built for penetration testers. Designed with OSCP-level engagements in mind, it consolidates 30+ industry-standard tools into a single organized workflow — from initial port scanning through to Active Directory exploitation — all launched in dedicated terminal windows with clean, structured output.
+> RickyRecon is an interactive, menu-driven reconnaissance and enumeration framework built for penetration testers. It consolidates 30+ industry-standard tools into a single organized workflow — from initial port scanning through to Active Directory exploitation — all launched in dedicated terminal windows with clean, structured output.
 
 ---
 
@@ -78,7 +78,7 @@ cd <target-box-name>
 | Option | Action |
 |--------|--------|
 | `9` | Run ALL tools (full recon) |
-| `10` | Quick scan — RustScan + WhatWeb + Gobuster |
+| `10` | Quick scan — RustScan + Nuclei + dirsearch |
 | `11` | RustScan only |
 | `12` | Nuclei only |
 
